@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #fefefe;
+    font-family: 'Cardo', serif;
+}
+
+.logo-img{
+    max-width: 150px;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: small;
+}
+
+.page-container{
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-title{
+    font-size: medium;
+}
+
+/*Contenuto pagina con flex*/
+
+.article{
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.article-information{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+.article-category{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+.category{
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.article a{
+    text-decoration: none;
+    color: black;
+}
+
+.article-title{
+    height: 200px;
+    margin-top: 20px;
+}
+
+.article-more{
+    height: 50px;
+    margin-top: 20px;
+}
+
+.article-photo{
+    flex-grow: 1;
+}
+
+
+.article-photo img{
+    width: 720px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+.border{
+    border: solid red 1px;
+}
+/*Contenuto pagina principale senza flex*/
+
+
+/* .page-article{
+    margin-top: 100px;
+    margin-bottom: 100px;  
+}
+
+.article-title{
+    display: inline-block;
+    position: relative;
+    top: -250px;
+    text-align: left;
+
+}
+
+.left-side{
+    margin-right: 150px;
+}
+
+.right-side{
+    margin-left: 150px;
+}
+
+.article-category{
+    display: inline-block;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.category-tag{
+    text-decoration: none;
+    color: black;
+    font-size: x-small;
+    font-weight: bolder;
+}
+
+.article-link{
+    font-weight: 400;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.article-link p{
+    font-size: small;
+}
+
+.page-article img{
+    width: 650px;
+} */
+
+
+
+/*inizio footer con flex*/
+
+
+/*Inizio footer senza flex*/
+/* .footer{
+    background-color: #f3ebe6;
+}
+
+.border{
+    border-style: solid;
+}
+
+.footer-contacts{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.footer-contacts-title{
+    font-size: small;
+}
+
+.footer-contacts-text{
+    font-size: small;
+    margin: 0px;
+}
+
+.footer-nav {
+    display: inline-block;
+    width: 58%;
+}
+
+.footer-copyright {
+    text-align: right;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+}
+
+.footer-copyright-title {
+    font-size: small;
+}
+
+.footer-copyright-text{
+    font-size: small;
+}
+
+.footer-nav-menu{
+    border-top: 1px solid black;
+    padding: 16px;
+} */
